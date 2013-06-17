@@ -16,6 +16,7 @@ Creates an configures an Ubuntu 12.04 server with a bare git repository and a po
 2. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 3. [Git](http://git-scm.com/)
 4. An existing Git project configured with the file structure: /src/www
+5. The vagrant user password on the VM is "vagrant"
 
 Example: You'll need a project with this directory structure for this proof of concept to work
 
