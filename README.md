@@ -20,10 +20,7 @@ Creates an configures an Ubuntu 12.04 server with a bare git repository and a po
 
 Example: You'll need a project with this directory structure for this proof of concept to work
 
-/project-folder
-  /src
-    /www
-      index.html
+/project-folder/src/www/index.html
 
 ## Usage
 
