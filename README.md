@@ -35,8 +35,10 @@ Add the git repository on the Vagrant box as a remote for your local git project
 
         $ git remote add webserver ssh://vagrant@192.168.66.10/home/vagrant/site.git
         $ git push webserver +master:refs/heads/master
+        
+You'll be asked for a password for the user "vagrant" when performing a push.  The password is "vagrant".
     
-This will tranfer the contents of your project to the git repo on the VM and a post-receive hook will deploy the 
+This will tranfer the contents of your project to the git repo on the VM and a post-receive hook will deploy the git repo contents to the webroot on the VM.
 
 Open your web browser and navigate to the following URL and you'll see the contents of your src/www directory
 
