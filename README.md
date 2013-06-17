@@ -8,6 +8,7 @@ Creates an configures an Ubuntu 12.04 server with a bare git repository and a po
 1. You'll need to have Git, Vagrant 1.1+ and VirtualBox installed to get this to work
 2. The Apache virtual host on the VM is configured to use the domain http://gitserver.local. You'll need to define this in your hosts file OR you can use the IP address of the Vagrant box (192.168.66.10) 
 3. This proof of concept only supports serving static HTML files at this time.  No PHP, Server-Side Includes, etc.
+4. The instructions for this repo are partly base on this blog post http://toroid.org/ams/git-website-howto
 
 ## Dependencies
 
